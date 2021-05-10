@@ -5,6 +5,14 @@ body {
   color: #404C51;
   }
 
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover, a:focus {
+    text-decoration: underline;
+  }  
+
   label {
     font-weight: bold;
   }
@@ -38,3 +46,4 @@ body {
   width: 90px ;
   text-align: center;
 }
+
