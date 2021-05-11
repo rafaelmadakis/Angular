@@ -11,6 +11,8 @@ import { LancamentosPesquisaComponent } from './lancamentos-pesquisa/lancamentos
 import { NavbarComponent } from './navbar/navbar.component';
 import { PesquisaPessoasComponent } from './pesquisa-pessoas/pesquisa-pessoas.component';
 
+import {PasswordModule} from 'primeng/components/password/password';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +25,8 @@ import { PesquisaPessoasComponent } from './pesquisa-pessoas/pesquisa-pessoas.co
     InputTextModule,
     ButtonModule,
     DataTableModule,
-    TooltipModule
+    TooltipModule,
+    PasswordModule
     ],
   providers: [],
   bootstrap: [AppComponent]

@@ -8,19 +8,19 @@ import { Component, OnInit } from '@angular/core';
 export class LancamentosPesquisaComponent {
 
   lancamentos = [
-    {tipo: 'DESPESA', descricao: 'Compra de pão', dataVencimento: '30/06/2017',
+    {tipo: 'DESPESA', descricao: 'Compra de pão', dataVencimento: new Date(2017, 5, 30),
       dataPagamento: null, valor: '4.55', pessoa: 'Padaria do José' },
-    {tipo: 'RECEITA', descricao: 'Compra de pão', dataVencimento: '30/06/2017',
+    {tipo: 'RECEITA', descricao: 'Compra de pão', dataVencimento: new Date(2017, 5, 30),
       dataPagamento: null, valor: '4.55', pessoa: 'Padaria do José' },
-    {tipo: 'DESPESA', descricao: 'Compra de pão', dataVencimento: '30/06/2017',
+    {tipo: 'DESPESA', descricao: 'Compra de pão', dataVencimento: new Date(2017, 5, 30),
       dataPagamento: null, valor: '4.55', pessoa: 'Padaria do José' },
-    {tipo: 'DESPESA', descricao: 'Compra de pão', dataVencimento: '30/06/2017',
+    {tipo: 'DESPESA', descricao: 'Compra de pão', dataVencimento: new Date(2017, 5, 30),
       dataPagamento: null, valor: '4.55', pessoa: 'Padaria do José' },
-    {tipo: 'DESPESA', descricao: 'Compra de pão', dataVencimento: '30/06/2017',
+    {tipo: 'DESPESA', descricao: 'Compra de pão', dataVencimento: new Date(2017, 5, 30),
       dataPagamento: null, valor: '4.55', pessoa: 'Padaria do José' },
-    {tipo: 'DESPESA', descricao: 'Compra de pão', dataVencimento: '30/06/2017',
+    {tipo: 'DESPESA', descricao: 'Compra de pão', dataVencimento: new Date(2017, 5, 30),
       dataPagamento: null, valor: '4.55', pessoa: 'Padaria do José' },
-    {tipo: 'DESPESA', descricao: 'Compra de pão', dataVencimento: '30/06/2017',
+    {tipo: 'DESPESA', descricao: 'Compra de pão', dataVencimento: new Date(2017, 5, 30),
       dataPagamento: null, valor: '4.55', pessoa: 'Padaria do José' }
 
   ];
