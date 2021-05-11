@@ -13,6 +13,7 @@ import { InputTextareaModule } from 'primeng/components/InputTextarea/inputtexta
 import { TooltipModule } from 'primeng/components/tooltip/tooltip';
 import { SelectButtonModule} from 'primeng/components/selectbutton/selectbutton';
 import { DropdownModule} from 'primeng/components/dropdown/dropdown';
+import {InputMaskModule } from 'primeng/components/inputmask/inputmask';
 
 import { AppComponent } from './app.component';
 import { LancamentosPesquisaComponent } from './lancamentos-pesquisa/lancamentos-pesquisa.component';
@@ -49,7 +50,8 @@ import { PessoaCadastroComponent } from './pessoa-cadastro/pessoa-cadastro.compo
     SelectButtonModule,
     DropdownModule,
     CurrencyMaskModule,
-    FormsModule
+    FormsModule,
+    InputMaskModule
 
   ],
   providers: [],
