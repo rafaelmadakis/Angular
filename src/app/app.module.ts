@@ -24,6 +24,7 @@ import { PesquisaPessoasComponent } from './pesquisa-pessoas/pesquisa-pessoas.co
 import { CurrencyMaskModule } from 'ng2-currency-mask';
 import { PessoaCadastroComponent } from './pessoa-cadastro/pessoa-cadastro.component';
 import { MessageComponent } from './message/message.component';
+import { LancamentosGridComponent } from './lancamentos-grid/lancamentos-grid.component';
 
 
 
@@ -36,7 +37,8 @@ import { MessageComponent } from './message/message.component';
     PesquisaPessoasComponent,
     LancamentoCadastroComponent,
     PessoaCadastroComponent,
-    MessageComponent
+    MessageComponent,
+    LancamentosGridComponent
 
 
   ],
