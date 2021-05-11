@@ -21,6 +21,7 @@ import { PesquisaPessoasComponent } from './pesquisa-pessoas/pesquisa-pessoas.co
 
 
 import { CurrencyMaskModule } from 'ng2-currency-mask';
+import { PessoaCadastroComponent } from './pessoa-cadastro/pessoa-cadastro.component';
 
 
 
@@ -31,7 +32,8 @@ import { CurrencyMaskModule } from 'ng2-currency-mask';
     LancamentosPesquisaComponent,
     NavbarComponent,
     PesquisaPessoasComponent,
-    LancamentoCadastroComponent
+    LancamentoCadastroComponent,
+    PessoaCadastroComponent
 
 
   ],
