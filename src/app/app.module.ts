@@ -10,6 +10,7 @@ import { InputTextModule } from 'primeng/components/inputtext/inputtext';
 import { InputTextareaModule } from 'primeng/components/InputTextarea/inputtextarea';
 import { TooltipModule } from 'primeng/components/tooltip/tooltip';
 import { SelectButtonModule} from 'primeng/components/selectbutton/selectbutton';
+import { DropdownModule} from 'primeng/components/dropdown/dropdown';
 
 import { AppComponent } from './app.component';
 import { LancamentosPesquisaComponent } from './lancamentos-pesquisa/lancamentos-pesquisa.component';
@@ -38,7 +39,8 @@ import { PesquisaPessoasComponent } from './pesquisa-pessoas/pesquisa-pessoas.co
     TooltipModule,
     InputTextareaModule,
     CalendarModule,
-    SelectButtonModule
+    SelectButtonModule,
+    DropdownModule
 
   ],
   providers: [],
